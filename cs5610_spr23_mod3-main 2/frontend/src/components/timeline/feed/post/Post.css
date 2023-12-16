@@ -1,0 +1,84 @@
+.post-outer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    transition: background-color .5s;
+    border-bottom: 1px solid var(--twitter-lightest-gray);
+    border-left: 1px solid var(--twitter-lightest-gray);
+    border-right: 1px solid var(--twitter-lightest-gray);
+}
+
+.post-outer-container:hover {
+    background-color: var(--twitter-lightest-gray);
+}
+.post-content-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.post-owner-name {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: var(--twitter-primary-blue);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-title {
+    display: flex;
+    align-items: center;
+}
+
+.post-media {
+    width: 30%;
+}
+
+.post-media img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.post-more-options {
+    cursor: pointer;
+}
+
+.post-caption {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.9rem;
+}
+
+.post-time {
+    padding-top: 1rem;
+    font-weight: lighter;
+    font-size: small;
+    text-align: end;
+}
+
+.more-toggle-btn {
+    background-color: var(--twitter-primary-blue) !important;
+    padding: 0.1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.more-toggle-btn:visited , .more-toggle-btn:hover , .more-toggle-btn:active {
+    background-color: var(--twitter-primary-blue) !important;
+    border: none;
+    box-shadow: none !important;
+}

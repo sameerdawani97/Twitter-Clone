@@ -1,0 +1,52 @@
+.edit-post {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+}
+
+.edit-post-form {
+    margin: auto;
+}
+.edit-post-btn {
+    width: 100px;
+}
+
+.edit-post-form-field {
+    margin-left: 1rem;
+    flex:1;
+}
+
+.edit-post-form-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-post-form-input input {
+    flex: 1;
+    border: none;
+    height: 3rem;
+    border-bottom: 1px solid var(--twitter-lightest-gray);
+    margin-bottom: 1rem;
+}
+
+.edit-post-form-input input::placeholder{
+    font-size: 1rem;
+}
+
+.edit-post-form-input input:focus{
+    outline: none;
+}
+
+.edit-post-form-btn {
+    text-align: end;
+}
+
+.save-changes-icon {
+    color: var(--twitter-primary-blue);
+    margin-right: 1rem;
+}
+
+.edit-profile-icon-btn {
+    cursor: pointer;
+}

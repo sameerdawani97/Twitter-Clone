@@ -1,0 +1,97 @@
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-inner-container {
+    width: 50%;
+    margin: auto;
+}
+
+.user-profile-header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--twitter-lightest-gray);
+    border-left: 1px solid var(--twitter-lightest-gray);
+    border-right: 1px solid var(--twitter-lightest-gray);
+}
+
+.no-post-text {
+    padding: 1rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: var(--twitter-light-grey);
+}
+
+.username-header-text {
+    color: var(--twitter-primary-blue);
+}
+
+@media (max-width: 1024px), only screen and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio : 2) {
+    .user-profile-inner-container {
+        width: 100%;
+    }   
+}
+
+.join-date-text {
+    font-size: small;
+    color: var(--twitter-light-grey)
+}
+
+.bio-desc-form {
+    margin: auto;
+}
+.bio-desc-btn {
+    width: 100px;
+}
+
+.bio-desc-form-field {
+    flex:1;
+}
+
+.bio-desc-form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-desc-form-input input {
+    flex: 1;
+    border: none;
+    height: 3rem;
+    border-bottom: 1px solid var(--twitter-lightest-gray);
+    margin-bottom: 1rem;
+}
+
+.bio-desc-form-input input::placeholder{
+    font-size: 1rem;
+}
+
+.bio-desc-form-input input:focus{
+    outline: none;
+}
+
+.bio-desc-form-btn {
+    text-align: end;
+}
+
+.save-changes-icon {
+    color: var(--twitter-primary-blue);
+    margin-right: 1rem;
+}
+
+.bio-desc-icon-btn {
+    cursor: pointer;
+}
+
+.bio-label {
+    font-size: smaller;
+    color: var(--twitter-primary-lighter-blue);
+}
+
+.bio-text-container {
+    font-size: smaller;
+}
+
+.padding-right-15px {
+    padding-right: 15px;
+}
